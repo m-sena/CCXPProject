@@ -44,12 +44,43 @@
         <div id="imagens">
             <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
             <div id="ing2">
-                <img src="1.svg" id="quinta" width="204" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" onclick="selectCard('#quinta')"/>
-                <img src="2.svg" width="204" id="sexta" onmouseover="highlightCard('#sexta')">
-                <img src="3.svg" width="204" id="sabado" onmouseover="highlightCard('#sabado')">
-                <img src="4.svg" class="card-ingresso" width="204" id="domingo" onmouseover="highlightCard('#domingo')">
-            </div>
-            
+                <img
+                 class = "cards-ingressos"
+                  src="1.svg"
+                  onclick="selectCard('#quinta')"
+                  onmouseover="highlightCard('quinta')"
+                  onmouseout="highlightCard('quinta')"
+                  id="quinta"
+                  alt=""
+                />
+                <img
+                class = "cards-ingressos"
+                  src="2.svg"
+                  onclick="selectCard('#sexta')"
+                  onmouseover="highlightCard('sexta')"
+                  onmouseout="highlightCard('sexta')"
+                  id="sexta"
+                  alt=""
+                />
+                <img
+                class = "cards-ingressos"
+                  src="3.svg"
+                  onclick="selectCard('#sabado')"
+                  onmouseover="highlightCard('sabado')"
+                  onmouseout="highlightCard('sabado')"
+                  id="sabado"
+                  alt="sab"
+                />
+                <img
+                class = "cards-ingressos"
+                  src="4.svg"
+                  onclick="selectCard('#domingo')"
+                  onmouseover="highlightCard('domingo')"
+                  onmouseout="highlightCard('domingo')"
+                  id="domingo"
+                  alt="dom"
+                />
+              </div>
         </div>
         <div class="botao">
             <button class="btn">GARANTA O SEU!</button>
