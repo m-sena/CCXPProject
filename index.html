@@ -41,18 +41,28 @@
         </div>
     </section>
     <section id="main2">
-        <div class="imagens">
+        <div id="imagens">
             <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
-            <img src="1.svg" width="204">
-            <img src="2.svg" width="204">
-            <img src="3.svg" width="204">
-            <img src="4.svg" width="204">
+            <div id="ing2">
+                <img src="1.svg" id="quinta" width="204" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" onclick="selectCard('#quinta')"/>
+                <img src="2.svg" width="204" id="sexta" onmouseover="highlightCard('#sexta')">
+                <img src="3.svg" width="204" id="sabado" onmouseover="highlightCard('#sabado')">
+                <img src="4.svg" class="card-ingresso" width="204" id="domingo" onmouseover="highlightCard('#domingo')">
+            </div>
+            
         </div>
         <div class="botao">
             <button class="btn">GARANTA O SEU!</button>
         </div>
     </section>
+    <div>
+        <form action="https://www.google.com">
+        <input type="email" placeholder="Seu email" required />
+        <input type="submit"/>
+        </form>
+    </div>
     <script src="index.js"></script>
+    <script src="main.js"></script>
     
 </body>
 </html>

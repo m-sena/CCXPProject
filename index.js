@@ -30,3 +30,4 @@ function formatoTempo(tempo){
 }
 countdown();
 setInterval(countdown, 10)
+

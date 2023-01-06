@@ -125,7 +125,7 @@ img {
     color: #F3C61F;
 
 }
-.imagens {
+#imagens {
     width: 1100px;
     align-items:flex-start;
     text-align: center;
@@ -133,7 +133,7 @@ img {
     
     
 }
-.imagens h2 {
+#imagens h2 {
     margin-left: 65px;
     margin-bottom: 0px;
 }
@@ -160,4 +160,21 @@ button {
 }
 .btn:hover {
     background-color:#F3C61F;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+.card-selected {
+    border: 5px solid green;
+}
+input {
+    background: #514988;
+    border-radius: 10px;
+    color:#FFFFFF;
+    border:0ch;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
 }
